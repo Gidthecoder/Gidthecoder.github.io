@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <DOCTYPE html>
     <html>
         <head>
@@ -150,3 +151,246 @@
             </style>
         </body>
     </html>
+=======
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Learnopedia</title>
+	        <meta charset="UTF-8">
+	        <meta name="author" content="Gideon Akinsanmi">
+	        <meta name="description" content="Learnopedia is enriched with tutorials on Web Development and Data Science">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	        <style>
+	             @font-face {
+	                font-family: 'OpenSans';
+		            src: url('fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+	            }
+	            @font-face {
+	                    font-family: 'OpenSans-b';
+		                src: url('fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+	            }
+                @font-face {
+	                font-family: 'OpenSans-eb';
+		            src: url('fonts/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
+	            }
+            </style>
+            <style>
+                body {
+                    background-color: white;
+                }
+                body,div,header,section,h1,h2,h3,p {
+                    font-family: OpenSans-b;margin:0;padding:0;
+                }
+            </style>
+        </head>
+        <body>
+            <style>
+                header, header nav {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;margin:0;padding:0;
+                }
+                header {
+                    padding: 5px 10px;font-size: 17px;border-bottom: 1px solid silver;
+                }
+                header h1 {font-size: 30px;}
+                header nav {
+                    margin-left: auto;
+                }
+                header nav a {
+                    display: block; 
+                    margin-left: 20px;
+                    padding: 10px 10px 0px 10px;
+                    color:black;
+                    transition: 0.5s ease all;
+                    text-decoration:none;
+                }
+                header nav a:hover {
+                    color: white;
+                    background-color:black;
+                }
+                
+            </style>
+            <header>
+                <h1><a href="index.html" style="color:rgb(255,114,58);text-decoration: none;">LEARNOPEDIA</a></h1>
+                <nav>
+                    <a href="areas/frontend.html">Frontend Development</a>
+                    <a href="areas/backend.html">Backend Development</a>
+                    <a href="areas/datascience.html">Data Science</a>
+                </nav>
+                <div class="brcontrols">
+                    <style>
+                        header div.brcontrols {
+                            margin-left:auto;margin-top: 5px;display: none;
+                        }
+                        header div.brcontrols div.bar {
+                             display: block;
+                        }
+                        header div.brcontrols div.bar p{
+                            border: 3px solid black;width: 50px;
+                            margin-bottom: 7px;
+                        }
+                    </style>
+                    <div class="bar">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </header>
+            <section class="othernav">
+                <style>
+                    section.othernav {
+                        height: 80vh;
+                        display: none;
+                    }
+
+                    section.othernav a {
+                        display: block;
+                        padding: 10px 15px;
+                        border-bottom: 1px solid silver;
+                        color:black;
+                        text-decoration: none;
+                        font-size: 20px;
+                    }
+                    section.othernav a:hover {
+                        background-color: rgb(231, 228, 228);
+                    }
+                    
+                </style>
+                <a href="areas/frontend.html">Frontend Development</a>
+                <a href="areas/backend.html">Backend Development</a>
+                <a href="areas/datascience.html">Data Science</a>
+
+                <p style="text-align: center;">&copy; copyright 2023. All rights reserved.</p>
+            </section>
+            <section class="intro">
+                <style>
+                    section.intro {
+                        padding: 20px 10px;
+                        border: 1px solid black;
+                        color:white;
+                        background-color:rgb(13,24,35);
+                    }
+                    section.intro p {
+                        font-size: 80px;
+                        
+                    }
+                </style>
+                <p>Coding isn't difficult when you learn from here</p>
+            </section>
+
+            <section class="courses">
+                <style>
+                    section.courses {
+                        width: 60%;
+                        margin: auto;padding: 10px;
+                        margin-top: 20px;
+                    }
+                    section.courses h2 {
+                        text-align: center;
+                        font-size: 28px;
+                    }
+                    section.courses h3 {
+                        font-size: 20px;
+                    }
+
+                    section.courses div.cr {
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        margin: 20px;
+                        padding: 10px;
+
+                    }
+                    section.courses div.cr div a {
+                        display: inline-block;
+                        margin-top: 10px;margin-right: 10px;
+                        padding: 5px 10px;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 35px;
+                        color:rgb(255,114,58);
+                        text-decoration:none;
+                        transition: 0.5s all ease;
+                    }
+                    section.courses div.cr div a:hover {
+                        background-color:rgb(255,114,58);
+                        color: white;
+                    }
+                </style>
+                <h2>Courses</h2>
+                <div class="cr">
+                    <h3>Frontend Development</h3>
+                    <div>
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JavaScript</a>
+                    </div>
+                </div>
+                <div class="cr">
+                    <h3>Backend Development</h3>
+                    <div>
+                        <a href="#">Nodejs</a>
+                    </div>
+                </div>
+                <div class="cr">
+                    <h3>Data Science</h3>
+                    <div>
+                        <a href="#">Statistics</a>
+                        <a href="#">Python</a>
+                        <a href="#">Numpy</a>
+                    </div>
+                </div>
+            </section>
+<Iframe height=300 width=300 src="https://www.youtube.com/embed/qlRqKaF7I_g">this content is showing</iframe>
+            <footer>
+                <style>
+                    footer {
+                        text-align:center;font-size: 25px;
+                    }
+                    @media screen and (max-width: 850px) {
+                        header nav {display:none;}
+                        section.othernav {display: block;}
+                        header div.brcontrols {display: block;}
+                        section.courses {width: 70%;}
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        section.intro p {font-size: 70px;}
+                        section.courses {width: 80%;}
+                    }
+
+                    @media screen and (max-width: 500px) {
+                        section.intro p {font-size: 60px;}
+                        section.courses {width: 90%;}
+                        section.courses div.cr div a {font-size: 25px;}
+                        footer {font-size: 15px;}
+                    }
+
+                    @media screen and (max-width: 400px) {
+                        section.intro p {font-size: 50px;}
+                    }
+
+                    @media screen and (max-width: 350px) {
+                        header div.brcontrols div.bar p{width:30px;}
+                        header h1 {font-size: 25px;padding-top:10px;}
+                        section.intro p {font-size: 45px;}
+                        section.courses {width: 90%;}
+                        section.courses div.cr {margin: 10px;}
+                        section.courses h2 {font-size: 22px;}
+                        section.courses h3 {font-size: 17px;}
+                    }
+                    @media screen and (max-width: 300px) {
+                        header div.brcontrols div.bar p{width:25px;border: 2px solid black;}
+                        header div.brcontrols {margin-top: 10px;}
+                        header h1 {font-size: 20px;}
+                        section.othernav a, section.othernav p {font-size: 14px;}
+                        section.intro p {font-size: 35px;}
+                        section.courses div.cr div a {font-size: 20px;padding: 3px 7px;}
+                    }
+                </style>
+                <code>&copy; copyright 2023. All rights reserved.</code>
+            </footer>
+        </body>
+    </html>
+>>>>>>> 14d88781719f94e851b1c892d6424d61898627e5
