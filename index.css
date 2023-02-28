@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans/OpenSans-Medium.ttf') format('truetype');
+}
+@font-face {
+        font-family: 'OpenSans-b';
+        src: url('fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+}
+
+* {box-sizing: border-box;}
+body {
+    background-color: white;
+}
+
+body,div,header,section,h1,h2,h3,p {
+    font-family: OpenSans-b;margin:0;padding:0;
+}
+
+
+header, header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;margin:0;padding:0;
+}
+header {
+    padding: 5px 10px;font-size: 17px;border-bottom: 1px solid silver;
+}
+header h1 {font-size: 30px;}
+header h1 a {color:rgb(255,114,58);text-decoration: none;}
+header nav {
+    margin-left: auto;
+}
+header nav a {
+    display: block; 
+    margin-left: 20px;
+    padding: 10px 10px 0px 10px;
+    color:black;
+    transition: 0.5s ease all;
+    text-decoration:none;
+}
+header nav a:hover {
+    color: white;
+    background-color:black;
+}
+
+
+header div.brcontrols {
+    margin-left:auto;margin-top: 5px;display: none;
+}
+header div.brcontrols div.bar {
+     display: block;
+}
+header div.brcontrols div.bar p{
+    border: 3px solid black;width: 50px;
+    margin-bottom: 7px;
+}
+
+
+section.othernav {
+    height: 80vh;
+    display: none;
+}
+
+section.othernav p {
+    text-align: center;
+    margin-top:5vh;
+}
+
+section.othernav a {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid silver;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+section.othernav a:hover {
+    background-color: rgb(231, 228, 228);
+}
+
+footer code{
+    display:block;text-align:center;font-size: 25px;
+}
+
+@media screen and (max-width: 850px) {
+    header nav {display:none;}
+    header div.brcontrols {display: block;}
+}
+
+@media screen and (max-width: 500px) {
+    footer code {font-size: 15px;}
+}
+
+@media screen and (max-width: 350px) {
+    header div.brcontrols div.bar p{width:30px;}
+    header h1 {font-size: 25px;padding-top:10px;}
+}
+@media screen and (max-width: 300px) {
+    header div.brcontrols div.bar p{width:25px;border: 2px solid black;}
+    header div.brcontrols {margin-top: 10px;}
+    header h1 {font-size: 20px;}
+    section.othernav a, section.othernav p {font-size: 14px;}
+}

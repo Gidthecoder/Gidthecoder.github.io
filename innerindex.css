@@ -1,0 +1,107 @@
+section.intro {
+    padding: 20px 10px;
+    border: 1px solid black;
+    color:white;
+    background-color:rgb(13,24,35);
+}
+section.intro div a {color: white;font-size:15px;}
+section.intro p.head {
+    font-size: 80px; 
+}
+section.intro p.content {font-size: 18px;}section.intro {
+                        padding: 20px 10px;
+                        border: 1px solid black;
+                        color:white;
+                        background-color:rgb(13,24,35);
+                    }
+                    section.intro div a {color: white;font-size:15px;}
+                    section.intro p.head {
+                        font-size: 80px; 
+                    }
+                    section.intro p.content {font-size: 18px;}
+
+                    section.courses {
+                        width: 60%;
+                        margin: auto;padding: 10px;
+                        margin-top: 20px;
+                    }
+                    section.courses h2 {
+                        text-align: center;
+                        font-size: 28px;
+                    }
+                    section.courses h3 {
+                        font-size: 20px;
+                    }
+
+                    section.courses div.cr {
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        margin: 20px;
+                        padding: 10px;
+                        background-image: linear-gradient(to bottom right, white 30%, rgb(228, 228, 228), white, rgb(228, 228, 228));
+
+                    }
+
+                    section.courses div.cr div {margin-bottom:10px;}
+
+                    section.courses div.cr div a {
+                        display: block;
+                        margin-top: 10px;
+                        padding: 5px 10px;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        color:rgb(255,114,58);background-color: white;
+                        text-decoration:none;
+                        transition: 0.5s all ease;
+                    }
+                    section.courses div.cr div a p.head {
+                        font-size: 35px;
+                    }
+
+                    section.courses div.cr div p.title, section.courses div.cr div a p.body {
+                        font-size: 16px;
+                    }
+
+                    section.courses div.cr div a:hover {
+                        background-color:rgb(255,114,58);
+                        color: white;
+                    }
+
+                         
+                @media screen and (max-width: 850px) {
+                    section.courses {width: 70%;}
+                }
+
+                @media screen and (max-width: 700px) {
+                    section.intro p.head {font-size: 70px;}
+                    section.courses {width: 100%;}
+                }
+
+                @media screen and (max-width: 500px) {
+                    section.intro p.head {font-size: 60px;}
+                    section.courses div.cr div a p.head {font-size: 25px;}
+                }
+
+                @media screen and (max-width: 400px) {
+                    section.intro p.head {font-size: 50px;}
+                }
+
+                @media screen and (max-width: 350px) {
+                    section.intro p.head {font-size: 45px;}
+                    section.courses div.cr {margin: 10px;}
+                    section.courses h2 {font-size: 22px;}
+                    section.courses h3 {font-size: 17px;}
+                    section.courses div.cr div p.title, section.courses div.cr div a p.body {
+                        font-size: 13px;
+                    }
+                    section.intro p.content {font-size: 16px;}
+                }
+                @media screen and (max-width: 310px) {
+                    section.intro p.head {font-size: 35px;}
+                    section.courses div.cr div a {padding: 3px 7px;}
+                    section.courses div.cr div a p.head {font-size: 18px;}
+                }
+                @media screen and (max-width: 250px) {
+                    section.intro p.head {font-size: 28px;}
+                    section.intro div a {font-size:13px;}
+                }

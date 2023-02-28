@@ -1,0 +1,72 @@
+section.subnav div {display:flex;flex-direction: row;flex-wrap:wrap;padding-top:5px;border-bottom: 1px solid silver;justify-content: center;background-color: beige;}
+section.subnav div a {display:block;font-family:OpenSans;font-size: 15px;padding: 5px;padding-left:10px;padding-right:10px;margin-right:5px;color:black;text-decoration: none;}
+section.subnav div select {padding: 5px;font-family:OpenSans;font-size: 15px;}
+
+section.intro {
+    padding: 20px 10px;
+    border: 1px solid black;
+    color:white;
+    background-color:rgb(13,24,35);
+}
+
+section.intro h1.head {
+    font-size: 80px;
+    
+}
+
+section.courses {
+    width: 60%;
+    margin: auto;padding: 10px;
+    margin-top: 20px;
+}
+
+section.courses div.cr {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+section.courses p {font-family: OpenSans;font-size: 16px;margin-top: 15px;}
+section.courses h2 {font-size: 20px;margin-top: 5px;}
+section.courses div.cr p.pre {background-color:lightgreen;padding:5px;border-left:5px solid orangered;}
+section.courses div.cr p.backnext a {display:inline-block;padding:5px;color:orangered;border: 1px solid orangered;}
+
+iframe {width:100%;height:250px;}
+
+     
+@media screen and (max-width: 850px) {
+    section.courses {width: 70%;}
+}
+
+@media screen and (max-width: 700px) {
+    section.intro h1.head {font-size: 70px;}
+    section.courses {width: 100%;padding:0;}
+    section.subnav div {flex-wrap: nowrap;white-space:nowrap;flex-shrink:0;overflow-x:scroll;justify-content:start;}
+}
+
+@media screen and (max-width: 500px) {
+    section.intro h1.head {font-size: 60px;}
+    section.subnav div a,section.subnav div select  {font-size: 13px;}
+}
+
+@media screen and (max-width: 400px) {
+    section.intro h1.head {font-size: 50px;}
+}
+
+@media screen and (max-width: 350px) {
+    section.intro h1.head {font-size: 45px;}
+    section.courses div.cr {margin: 10px;}
+    section.courses h2 {font-size: 22px;}
+    section.courses h3 {font-size: 17px;}
+    iframe {height:200px;}
+}
+
+@media screen and (max-width: 310px) {
+    section.intro h1.head {font-size: 35px;}
+   
+}
+@media screen and (max-width: 250px) {
+    section.intro h1.head {font-size: 28px;}
+    video {height:150px;}
+    section.courses p {font-size: 14px;}
+}

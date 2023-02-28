@@ -1,0 +1,152 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Learnopedia</title>
+	        <meta charset="UTF-8">
+	        <meta name="author" content="Gideon Akinsanmi">
+	        <meta name="description" content="Learnopedia is enriched with a wide range of tutorials on web development and data science.">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+            <script src="index.js" defer></script>
+
+            <meta property="og:title" content="Learnopedia">
+            <meta property="og:url" content="https://learnopedia.github.io">
+            <meta property="og:description" content="Gain access to tutorials on web development and data science">
+            <meta property="og:image" content="https://learnopedia.github.io/logo.png">
+
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="https://learnopedia.github.io">
+            <meta name="twitter:creator" content="@Learnopedia">
+            <meta name="twitter:title" content="Learnopedia">
+            <meta name="twitter:description" content="Gain access to tutorials on web development and data science">
+            <meta name="twitter:image" content="https://learnopedia.github.io/logo.png">
+	        
+        </head>
+        <body>
+            <header>
+                <h1><a href="index.html">LEARNOPEDIA</a></h1><nav><a href="frontend/index.html">Frontend Development</a><a href="backend/index.html">Backend Development</a><a href="datascience/index.html">Data Science</a></nav><div class="brcontrols"><div class="bar"><p></p><p></p><p></p> </div></div>
+            </header>
+
+            <section class="othernav">
+                <a href="frontend/index.html">Frontend Development</a><a href="backend/index.html">Backend Development</a><a href="datascience/index.html">Data Science</a><p>&copy; copyright 2023. All rights reserved.</p>
+            </section>
+
+
+            <section class="intro">
+                <style>
+                    section.intro {
+                        padding: 20px 10px;
+                        border: 1px solid black;
+                        color:white;
+                        background-color:rgb(13,24,35);
+                    }
+                    section.intro p {
+                        font-size: 80px;
+                        
+                    }
+                </style>
+                <p>Coding isn't difficult when you learn it here</p>
+            </section>
+
+            <section class="courses">
+                <style>
+                    section.courses {
+                        width: 60%;
+                        margin: auto;padding: 10px;
+                        margin-top: 20px;
+                    }
+                    section.courses h2 {
+                        text-align: center;
+                        font-size: 28px;
+                    }
+                    section.courses h3 {
+                        font-size: 20px;
+                    }
+
+                    section.courses div.cr {
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        margin: 20px;
+                        padding: 10px;
+                        background-image: linear-gradient(to bottom right, white 60%, rgb(214, 214, 214));
+
+                    }
+                    section.courses div.cr div a {
+                        display: inline-block;
+                        margin-top: 10px;margin-right: 10px;
+                        padding: 5px 10px;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 35px;
+                        color:rgb(255,114,58);background-color: white;
+                        text-decoration:none;
+                        transition: 0.5s all ease;
+                    }
+                    section.courses div.cr div a:hover {
+                        background-color:rgb(255,114,58);
+                        color: white;
+                    }
+                </style>
+                <h2>Courses</h2>
+                <div class="cr">
+                    <h3><a href="frontend/index.html">Frontend Development</a></h3>
+                    <div>
+                        <a href="frontend/html.html">HTML</a>
+                        <a href="frontend/css.html">CSS</a>
+                        <a href="frontend/js.html">JavaScript</a>
+                        <a href="frontend/dom.html">DOM</a>
+                    </div>
+                </div>
+                <div class="cr">
+                    <h3><a href="backend/index.html">Backend Development</a></h3>
+                    <div>
+                        <a href="backend/nodejs.html">Nodejs</a>
+                    </div>
+                </div>
+                <div class="cr">
+                    <h3><a href="datascience/index.html">Data Science</a></h3>
+                    <div>
+                        <a href="datascience/statistics.html">Statistics</a>
+                        <a href="datascience/python.html">Python</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <code>&copy; copyright 2023. All rights reserved.</code>
+            </footer>
+            <style>
+                    
+                @media screen and (max-width: 850px) {
+                    section.courses {width: 70%;}
+                }
+
+                @media screen and (max-width: 700px) {
+                    section.intro p {font-size: 70px;}
+                    section.courses {width: 80%;}
+                }
+
+                @media screen and (max-width: 500px) {
+                    section.intro p {font-size: 60px;}
+                    section.courses {width: 90%;}
+                    section.courses div.cr div a {font-size: 25px;}
+                }
+
+                @media screen and (max-width: 400px) {
+                    section.intro p {font-size: 50px;}
+                }
+
+                @media screen and (max-width: 350px) {
+                    section.intro p {font-size: 45px;}
+                    section.courses {width: 100%;}
+                    section.courses div.cr {margin: 10px;}
+                    section.courses h2 {font-size: 22px;}
+                    section.courses h3 {font-size: 17px;}
+                }
+                @media screen and (max-width: 300px) {
+                    section.intro p {font-size: 35px;}
+                    section.courses div.cr div a {font-size: 20px;padding: 3px 7px;}
+                }
+            </style>
+        </body>
+    </html>

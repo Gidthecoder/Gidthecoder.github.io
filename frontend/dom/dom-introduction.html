@@ -1,0 +1,122 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title> DOM Introduction - Learnopedia</title>
+	        <meta charset="UTF-8">
+	        <meta name="author" content="Gideon Akinsanmi">
+	        <meta name="description" content="DOM means Document Object Model. It represents a web page in form of an hierachial tree so that it's structure and content can be modified by scripting languages like javascript ">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../../index.css">
+            <script src="../../index.js" defer></script>
+	        <link rel="stylesheet" href="../../innerindex2.css">
+            <script src="../../innerindex2.js" defer></script>
+	        
+            <meta property="og:title" content="DOM Introduction">
+            <meta property="og:url" content="https://learnopedia.github.io/frontend/dom/dom-introduction.html">
+            <meta property="og:description" content="DOM means Document Object Model. It represents a web page in form of an hierachial tree so that it's structure and content can be modified by scripting languages like javascript .">
+            <meta property="og:image" content="https://learnopedia.github.io/logo.png">
+
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="https://learnopedia.github.io/frontend/dom/dom-introduction.html">
+            <meta name="twitter:creator" content="@Learnopedia">
+            <meta name="twitter:title" content="DOM Introduction">
+            <meta name="twitter:description" content="DOM means Document Object Model. It represents a web page in form of an hierachial tree so that it's structure and content can be modified by scripting languages like javascript .">
+            <meta name="twitter:image" content="https://learnopedia.github.io/logo.png">
+        </head>
+        <body>
+            <header>
+                <h1><a href="../../index.html">LEARNOPEDIA</a></h1><nav><a href="../../frontend/index.html">Frontend Development</a><a href="../../backend/index.html">Backend Development</a><a href="../../datascience/index.html">Data Science</a></nav><div class="brcontrols"><div class="bar"><p></p><p></p><p></p> </div></div>
+            </header>
+
+            <section class="othernav">
+                <a href="../../frontend/index.html">Frontend Development</a><a href="../../backend/index.html">Backend Development</a><a href="../../datascience/index.html">Data Science</a><p>&copy; copyright 2023. All rights reserved.</p>
+            </section>
+
+            <section class="subnav">
+                <div>
+                    <a href="../../frontend/index.html" style="color:orangered;background-color:black;">Frontend Development</a>
+                    <a href="../../backend/index.html">Backend Development</a>
+                    <a href="../../datascience/index.html">Data Science</a>
+                </div>
+                <div>
+                    <a href="../../frontend/html.html" >HTML</a>
+                    <a  href="../../frontend/css.html">CSS</a>
+                    <a  href="../../frontend/js.html" >JavaScript</a>
+                    <a  href="../../frontend/dom.html" style="color:orangered;background-color:black;">DOM</a>
+                </div>
+                <div>
+                    <a style="display:none" class="special"></a>
+                    <select class="ss">
+                        <option value="dom-introduction.html" selected>Introduction to DOM</option>
+                        <option value="morecontent">More content coming soon</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="intro">
+                
+                
+                <h1 class="head">Introduction to DOM</h1>
+            </section>
+
+            <section class="courses">
+                
+                <div class="cr">
+                    <p class="pre"><b>Prequisite: </b>Basic computer literacy, Knowledge in HTML, CSS and JavaScript</p>
+                    <p class="backnext"><a href="../../frontend/dom.html">back &larr;</a><a style="float:right;">next &rarr;</a></p>
+                    <p>DOM means Document Object Model.</p>
+                    <p>It represents a web page in form of an hierachial tree so that it's structure and content can be modified by scripting languages like javascript </p>
+                    <iframe src="https://www.youtube.com/embed/bWaZ6Gu8jQ8" loading="lazy"></iframe>
+                    <p>DOM represents the document as object and stores the methods for manipulating it in an interface. </p>
+                    <iframe src="https://www.youtube.com/embed/IH8aLzvZLFw" loading="lazy"></iframe>
+                    <p>JavaScript is the default programming language for manipulating the DOM</p>
+                    
+                    <h2>Data types</h2>
+                    <p>Every object in a document is associated with a (list of) data type.</p>
+                    <p>The Document type refers to the root document</p>
+                    <p>The Element type refers to elements object within the documents</p>
+                    <p>The Node type refers to all objects(Elements, Comments, Attributes) within the document</p>
+                    <p>The data types is associated with a (group of) interfaces for manipulating it</p>
+                    <p>There are many other type of data types and interfaces</p>
+
+                    <h2>DOM interfaces</h2>
+                    <p>DOM Has several interfaces for manipulating different data types</p>
+                    <p>The Document interface has methods for manipulating the Document type</p>
+                    <iframe src="https://www.youtube.com/embed/GwGUIUOp-nk" loading="lazy"></iframe>
+                    <p>The Node interface has methods for manipulating Node type</p>
+                    <iframe src="https://www.youtube.com/embed/9HGrAWhCC2o" loading="lazy"></iframe>
+                    <p>The Element interface has general methods for manipulating the Element type</p>
+                    <iframe src="https://www.youtube.com/embed/rX6M0LxXWx4" loading="lazy"></iframe>
+                    <p>There are also multiple specialized Interfaces for manipulating HTML elements(which is a subset of Element type)</p>
+                    <iframe src="https://www.youtube.com/embed/37bFuiYFfTg" loading="lazy"></iframe>
+                    <p>Multiple interfaces can belong to a single data type</p>
+                    <p>A method for an interface can either return an object, data type or perform a task on the document</p>
+                    <iframe src="https://www.youtube.com/embed/Em4eyFt-bbw" loading="lazy"></iframe>
+
+                    <h2>Inheritance</h2>
+                    <p>Various interfaces inherits methods and properties from some top-level interfaces</p>
+                    
+
+                    <h2>Popular DOM methods</h2>
+                    <p>Document Interface: querySelector(selector) method selects the first element that matches the selector. </p>
+                    <iframe src="https://www.youtube.com/embed/6L94wdLBAi8" loading="lazy"></iframe>
+                    <p>Element interface: textContent(html) method add or modifies the text content of an Element.</p>
+                    <iframe src="https://www.youtube.com/embed/iWhelhIWkWQ" loading="lazy"></iframe>
+                    <p>HTMLElement interface: style property modifies the CSS styling of HTML elements</p>
+                    <iframe src="https://www.youtube.com/embed/KGdg1OQT6Zs" loading="lazy"></iframe>
+                    <p></p>
+                    <h2>Quiz</h2>
+                    <button>coming soon</button>
+                    <h2>FAQ</h2>
+                    <button>coming soon</button>
+                    <p class="backnext"><a href="../../frontend/dom.html">back &larr;</a><a style="float:right;">next &rarr;</a></p>
+                </div>
+               
+            </section>
+
+            <footer>
+                <code>&copy; copyright 2023. All rights reserved.</code>
+            </footer>
+            
+        </body>
+    </html>
