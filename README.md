@@ -1,1 +1,1 @@
-# codejobz.github.io
+# A web development blog
